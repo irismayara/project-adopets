@@ -1,0 +1,23 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  padding: .2rem;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  padding: .8rem;
+}
+
+nav ul li a ::marker{
+  color: #FF8D6B;
+}
+
+.section-search {
+  display: block;
+  text-align: center;
+}
+

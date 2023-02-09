@@ -1,0 +1,68 @@
+<header>
+  <section>
+    <h1>
+      <a routerLink="/" title="AdoPets">
+        <img src="" alt="logo-adopets" />
+      </a>
+    </h1>
+    <nav>
+      <ul>
+        <li>
+          <a routerLink="/">INÍCIO</a>
+        </li>
+        <li>
+          <a routerLink="/feed">FEED</a>
+        </li>
+        <li>
+          <a routerLink="">LAR P/ ANIMAIS</a>
+        </li>
+        <li>
+          <a routerLink="">CASA DE RAÇÕES</a>
+        </li>
+        <li>
+          <a routerLink="">AJUDE</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button">
+      <img src="" alt="icon-mais" />
+      COLOCAR PET P/ ADOÇÃO
+    </button>
+  </section>
+  <section>
+    <div>
+      <a routerLink="" title="Sair"><img src="" alt="icon-logout" /></a>
+      <span>Olá, {{ userNome }}</span>
+    </div>
+    <div>
+      <img src="" alt="icon-localizacao" />
+      <span>{{ userLocalizacao }}</span>
+    </div>
+  </section>
+  <section class="section-search">
+    <div>
+      <input placeholder="O que você está procurando?" type="text" />
+    </div>
+    <div>
+      <ul>
+        <li>
+          <a routerLink="" title="Cachorro"
+            ><img src="" alt="icon-cachorro"
+          /></a>
+        </li>
+        <li>
+          <a routerLink="" title="Gato"><img src="" alt="icon-gato" /></a>
+        </li>
+        <li>
+          <a routerLink="" title="Hamster"><img src="" alt="icon-hamster" /></a>
+        </li>
+        <li>
+          <a routerLink="" title="Coelho"><img src="" alt="icon-coelho" /></a>
+        </li>
+        <li>
+          <a routerLink="" title="Peixe"><img src="" alt="icon-peixe" /></a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</header>

@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: #ebecf0;
+  color: #8c52ff;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+p {
+  color: black;
+}
+
+label {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+input {
+  border: 0.5px solid;
+  border-radius: 7px;
+  height: 52px;
+}
+
+input:focus,
+select:focus {
+  border:  #ff8d6b;
+}
+
+button {
+  border: 0.5px solid;
+  border-radius: 75px;
+  width: 268;
+}
