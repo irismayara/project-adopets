@@ -1,0 +1,12 @@
+.card-anuncio {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card-anuncio,
+h2,
+p {
+  color: #fff;
+  background-color: #8c52ff;
+  border-radius: 7px;
+}

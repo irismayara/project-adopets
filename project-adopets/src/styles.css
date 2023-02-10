@@ -4,9 +4,14 @@
 * {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   background-color: #ebecf0;
   color: #8c52ff;
+}
+
+body {
+  margin: 0;
+  padding: 15px 40px 40px 40px;
 }
 
 h1 {
@@ -47,11 +52,30 @@ input {
 
 input:focus,
 select:focus {
-  border:  #ff8d6b;
+  border: #ff8d6b;
 }
 
 button {
   border: 0.5px solid;
   border-radius: 75px;
-  width: 268;
+  width: 210px;
+  min-width: 75px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+div.card-form {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 0 15px 0 15px;
+}
+
+div.card-info {
+  background-color: #fff;
+  border: 2px solid #8c52ff;
+  border-radius: 7px;
+  margin: 7px;
+  padding: 0 15px 0 15px;
 }

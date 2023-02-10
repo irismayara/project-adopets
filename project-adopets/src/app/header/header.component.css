@@ -1,19 +1,21 @@
 section {
   display: flex;
   justify-content: space-between;
-  padding: .2rem;
+  padding: 0.2rem;
 }
 
 ul {
   display: flex;
+  text-align: center;
+  padding: 0 35px 0 35px;
 }
 
 ul li {
-  padding: .8rem;
+  padding: 0.8rem;
 }
 
-nav ul li a ::marker{
-  color: #FF8D6B;
+nav ul li a ::marker {
+  color: #ff8d6b;
 }
 
 .section-search {
@@ -21,3 +23,8 @@ nav ul li a ::marker{
   text-align: center;
 }
 
+.btn-colocar-para-adocao {
+  background-color: #45ffcb;
+  border: 0;
+  font-weight: 600;
+}
