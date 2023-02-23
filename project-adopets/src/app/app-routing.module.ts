@@ -4,14 +4,22 @@ import { CasaRacoesComponent } from './casa-racoes/casa-racoes.component';
 import { LarAnimaisComponent } from './lar-animais/lar-animais.component';
 
 const routes: Routes = [
-  { path: 'feed', loadChildren: () => import('./feed/feed.module').then(m => m.FeedModule) },
-  { path: 'anuncios', loadChildren: () => import('./anuncios/anuncios.module').then(m => m.AnunciosModule) },
+  { path: '', redirectTo: 'anuncios' },
+  {
+    path: 'anuncios',
+    loadChildren: () =>
+      import('./anuncios/anuncios.module').then((m) => m.AnunciosModule),
+  },
+  {
+    path: 'feed',
+    loadChildren: () => import('./feed/feed.module').then((m) => m.FeedModule),
+  },
   { path: 'lar', component: LarAnimaisComponent },
   { path: 'casa', component: CasaRacoesComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
